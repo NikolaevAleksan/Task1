@@ -1,0 +1,41 @@
+.box {
+  display: flex;
+  gap: 5px;
+  height: 500px;
+}
+
+.one {
+  flex: 1;
+  text-align: center;
+}
+.one:hover {
+  box-shadow: 0.1px 2px 10px 2px rgb(107, 106, 106);
+}
+
+.two {
+  flex: 1;
+  text-align: center;
+}
+.two:hover {
+  box-shadow: 0.1px 2px 10px 2px rgb(107, 106, 106);
+}
+
+.three {
+  flex: 1;
+  text-align: center;
+}
+.three:hover {
+  box-shadow: 0.1px 2px 10px 2px rgb(107, 106, 106);
+}
+
+.weather-image {
+  width: auto;
+  height: auto;
+}
+
+.weather-font-color {
+  background-color: rgb(60, 154, 243);
+  width: auto;
+  color: white;
+  font-size: 50px;
+}
