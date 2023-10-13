@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 4);
+  border-radius: 5px;
+  overflow: hidden;
+  background: white;
+}
+
+.item {
+  width: 200px;
+  border-left: 1px solid #d9d9d9;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.button-style {
+  background-color: rgb(255, 94, 0);
+  color: white;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  text-shadow: 0 -1px 0;
+}
+
+.aha {
+  background: #4e6379;
+}
+h3 {
+  color: rgb(255, 94, 0);
+}
