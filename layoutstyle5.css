@@ -1,0 +1,18 @@
+.hovered-div {
+  border: 1px solid black;
+  width: 120px;
+  text-align: center;
+}
+
+.ddd {
+  text-decoration: none;
+  color: black;
+}
+
+.ddd:hover {
+  color: red;
+}
+
+.hovered-div:hover {
+  background: wheat;
+}
