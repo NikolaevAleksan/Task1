@@ -1,0 +1,47 @@
+.round-layout6 {
+  background: #95cd8b;
+  width: 100px;
+  height: 100px;
+  border: 24px solid #95cd8b;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.round4-layout6 {
+  background: purple;
+  width: 100px;
+  height: 100px;
+  border: 24px solid purple;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.round5-layout6 {
+  background: gray;
+  width: 100px;
+  height: 100px;
+  border: 24px solid gray;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.font-round5-layout6 {
+  font-size: 33px;
+  color: black;
+}
+
+.box-layout6 {
+  display: flex;
+  height: 500px;
+}
+
+.font-round-layout6 {
+  font-size: 33px;
+  color: white;
+}
+
+.line {
+  width: 110px;
+  margin-top: 70px;
+  border-top: 10px solid gray;
+}
