@@ -1,0 +1,40 @@
+.battery-wrapper {
+  width: 100%;
+  height: 50px;
+  margin-top: 5%;
+}
+
+.battery {
+  width: 15%;
+  height: 100%;
+  border: 8px solid;
+}
+
+.battery::after {
+  content: "";
+  position: relative;
+  width: 5px;
+  height: 16px;
+  background-color: #000000;
+  border: 5px solid;
+  left: 103%;
+  top: 30%;
+}
+
+.low-charge {
+  background: linear-gradient(to right, red 0%, red 30%, white 30%, white 100%);
+}
+
+.medium-charge {
+  background: linear-gradient(
+    to right,
+    yellow 0%,
+    yellow 60%,
+    white 60%,
+    white 100%
+  );
+}
+
+.high-charge {
+  background: green;
+}
