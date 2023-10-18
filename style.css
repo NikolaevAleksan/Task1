@@ -1,0 +1,13 @@
+.comment-button {
+  text-decoration: none;
+  color: rgb(19, 18, 18);
+  border: 1px solid black;
+  width: 120px;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.comment-button:hover {
+  background: linear-gradient(to bottom, #f5f8ee, #ddddc5);
+  color: rgb(196, 56, 56);
+}
