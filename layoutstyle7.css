@@ -1,0 +1,29 @@
+.feedback {
+  border-radius: 0px 10px 10px 0px;
+  width: 300px;
+  background: #333;
+  color: #fff;
+  border-right: 40px solid orange;
+  position: fixed;
+  min-height: 100px;
+  top: 100px;
+  padding: 10px;
+  left: 0;
+  margin-left: -320px;
+}
+
+.feedback:hover {
+  left: 0;
+  transition: 0.5s ease-in-out;
+  margin-left: 0px;
+}
+
+.feedback::after {
+  content: "Обратная связь";
+  color: #000;
+  position: absolute;
+  transform: rotate(-90deg);
+  right: -60px;
+  bottom: 50px;
+  margin-top: 60px;
+}
