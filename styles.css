@@ -1,0 +1,253 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html,
+body,
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.main-div {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  word-wrap: normal;
+  justify-content: center;
+  font-size: 30px;
+  color: #0045be;
+}
+
+.background-image {
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 680px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 750px;
+  height: 500px;
+  margin-top: -210px;
+}
+
+.offer {
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: white;
+  margin: 20px 20px 0 20px;
+  padding: 5px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.4);
+  border: none;
+  width: 190px;
+  height: 220px;
+}
+
+.u-svg-link {
+  display: none;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 100px;
+  fill: white;
+  background: #0045be;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.main-name {
+  font-size: 19px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.description {
+  word-wrap: break-word;
+  position: relative;
+  font-size: 13px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #333333;
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+@media (max-width: 750px) {
+  .txt {
+    font-size: 20px;
+    word-wrap: normal;
+  }
+
+  .background-image {
+    width: 500px;
+  }
+
+  .results {
+    grid-template-columns: repeat(2, 50%);
+    width: 555px;
+    height: 100%;
+    margin-top: -100px;
+    margin-bottom: 100px;
+  }
+
+  .offer {
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 210px;
+  }
+  .main-name {
+    font-size: 17px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+  }
+}
+@media (max-width: 575px) {
+  .txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: normal;
+    font-size: 17px;
+  }
+
+  .background-image {
+    width: 400px;
+  }
+
+  .results {
+    grid-template-columns: repeat(2, 50%);
+    width: 430px;
+    height: 100%;
+    margin-top: -60px;
+  }
+
+  .offer {
+    width: 168px;
+    height: 200px;
+  }
+  .main-name {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 12px;
+  }
+
+  footer {
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    width: 100%;
+    height: 100px;
+  }
+}
+
+@media (max-width: 430px) {
+  .txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap: normal;
+    font-size: 13px;
+  }
+
+  .background-image {
+    width: 250px;
+  }
+
+  .results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 70%;
+    width: 330px;
+    height: 100%;
+    margin-top: -40px;
+  }
+
+  .offer {
+    width: 220px;
+    height: 175px;
+  }
+  .main-name {
+    font-size: 15px;
+  }
+  .description {
+    font-size: 12px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333333;
+    width: 100%;
+    height: 80px;
+  }
+
+  .foot {
+    width: 250px;
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+}
