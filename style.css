@@ -1,0 +1,17 @@
+.progress-bar {
+  border: 1px solid black;
+  height: 20px;
+  width: 1000px;
+  border-radius: 10px;
+  position: relative;
+  background: linear-gradient(#333, #999);
+  box-shadow: 3px 0 3px;
+  overflow: hidden;
+}
+
+.progress-indicator {
+  height: 20px;
+  background-color: rgba(65, 155, 211, 0.904);
+  width: 330px;
+  border-radius: 10px;
+}
